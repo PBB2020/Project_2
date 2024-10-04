@@ -1,0 +1,75 @@
+body {
+    background-image: url(pexels-joshsorenson-1154510.jpg);
+  }
+  
+  h2 {
+      text-align: center;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      color:rgb(65, 137, 161);
+      margin-top: 100 px;
+    }
+
+  
+  .link-success {
+      text-align: start;
+      color: lightblue;
+  }
+  
+  #p1 {
+      background-color:rgba(0, 255, 98, 0.3);
+  
+  }
+  #p2 {
+    background-color:rgba(192,192,192,0.3);
+  }
+  #p3 {
+    background-color:rgba(68, 68, 165, 0.3);
+  }
+  
+  table, th, td {
+      border: 1px solid black;
+      color: lightskyblue;
+      text-align: center;
+    }
+  
+  table.center {
+      margin-left: auto; 
+      margin-right: auto;
+    }
+  
+    .mycontainer div {
+      width: 25%;
+      padding: 20px 50px 20px 50px;
+      float:inline-start;
+      color: lightskyblue;
+      background-color: rgb(20, 67, 67);
+      border-style: ridge;
+      border-color:rgb(2, 43, 43)
+    }
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+    }
+    
+    li {
+      float: left;
+    }
+    
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    
+    li a:hover:not(.active) {
+      background-color: #111;
+    }
+    
+    .active {
+      background-color: #04AA6D;
+    }
